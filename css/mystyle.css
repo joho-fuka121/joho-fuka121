@@ -1,0 +1,128 @@
+@charset "utf-8";
+ h1{
+                color: #fff8ee;
+                background-color: #556B2F;
+				font-family: "メイリオ","Hieagio Sans",sans-serif;
+            }
+            p{
+                font-size: 90%;
+                line-height: 1.8;
+            }
+            article{
+                position:relative;
+                clear: both;
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                float: left;
+            }
+            header img{
+                float: left;
+            }
+            .header-in{
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .sub-h1{
+                background:linear-gradient(to left,#c0c0c0,#556B2F);
+                padding-top: 5px;
+                padding-left: 15px;
+                border-left: 15px solid #8B5E3c;
+            }
+            .point-list{
+                list-style-image: url(../omusubi.png);
+                font-weight: bold;
+                margin-left: 30px;
+            }
+            .point-img{
+                box-shadow: 0px 0px 10px 3px #aaaaaa;
+            }
+            nav ul a{
+                text-decoration: none;
+                color: #1f3134;
+            }
+            nav ul a:link{
+                color: #1f3134;
+            }
+            nav ul a:visited{
+                color: #426579;
+            }
+            nav ul a:hover{
+                color: #556B2F;
+            }
+            nav ul a:active{
+                color: #8B5E3c;
+            }
+
+            /*959px以下の場合*/
+            @media (max-width:959px) {
+            hader img{
+                float: none;
+            }
+            nav ul{
+                text-align: left;
+                padding: 0;
+                margin-left: 10px;
+            }
+            article{
+                width: auto;
+            }
+            article img{
+                max-width: 100%;
+                height: auto;
+            }
+            }
+            h1{
+                position:absolute;
+                top:0;
+                left:0;
+            }
+            .catch{
+                position:absolute;
+                top:20px;
+                left:30px;
+                text-shadow: 0px 5px 10px #00000000;
+            }
+            footer{
+                text-align: center;
+                background-color: #c0c0c0;
+            }
+            .subhead{
+                background-color: #8B5E3c;
+            }
+            ul{
+                list-style-type: none;
+                line-height: 1.8;
+                font-size: 90%;
+            }
+            ul time{
+                border-radius: 5px;
+                background-color: #c0c0c0;
+                color: #8B5E3c;
+            }
+            nav ul{
+                font-weight: bold;
+                text-align: right;
+                padding-top: 26px;
+                padding-bottom: 5px;
+                margin: 0;
+
+            }
+            nav li{
+                display: inline;
+                padding-left: 10px;
+                padding-right: 12px;
+                border-right: 1px solid #556B2F;
+            }
+            img{
+                height: auto;
+            }
+			.green{
+				color: #556B2F;
+			}
+			.brown{
+				color: #8B5E3c;
+			}
